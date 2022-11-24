@@ -1,4 +1,80 @@
-h1{
-    
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+h1,h2,h3,h4{
+    font-family: 'Roboto', sans-serif;
 }
+
+/*Seccion Testimonios*/
+.testimonials{
+    background-color: white;
+}
+.testimonials h1{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    font-size: 300%;
+    background-color: red;
+    color: white;
+    text-shadow: 3px  0px 0px black,
+               0px  3px 0px black,
+              -3px  0px 0px black,
+               0px -3px 0px black;
+
+}
+
+.testimonials img{
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.Testimonio1{
+    margin-left: 6%;
+    margin-right: 40%;
+    background-color:white;
+    border: 10px solid black;
+    margin-bottom: 30px;
+    
+}
+.texto1{
+    margin-left: 35%;
+    margin-right: 6%;
+    margin-top: -30%;
+    margin-bottom: 10%;
+}
+
+.Testimonio2{
+    margin-left: 40%;
+    margin-right: 6%;
+    background-color:white;
+    border: 10px solid black;
+    margin-bottom: 50px;
+}
+.texto2{
+    margin-left: 35%;
+    margin-right: 6%;
+    margin-top: -30%;
+    margin-bottom: 10%;
+}
+/*Fin Seccion Testimonio*/
+
+/*Seccion Contacto*/
+.contact h1{
+    text-align: center;
+    font-size: 300%;
+}
+.contact h2{
+    margin-left: 10%;
+    margin-top: -1%;
+}
+ul.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+/*Fin Seccion Contacto*/
